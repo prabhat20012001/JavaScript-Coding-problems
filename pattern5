@@ -1,0 +1,20 @@
+******
+*****
+****
+***
+**
+*
+
+
+function starSquare(n){
+for(let i=1;i<n;i++)
+{
+    let pattern="";
+    for(j=i;j<n;j++)
+    {
+        pattern+="*";
+    }
+    console.log(pattern)
+}
+}
+starSquare(7);
