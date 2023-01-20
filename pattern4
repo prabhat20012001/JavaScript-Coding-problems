@@ -1,0 +1,19 @@
+1
+22
+333
+4444
+55555
+666666
+
+function starSquare(n){
+for(let i=1;i<n;i++)
+{
+    let pattern="";
+    for(j=1;j<=i;j++)
+    {
+        pattern+=i;
+    }
+    console.log(pattern)
+}
+}
+starSquare(7);
