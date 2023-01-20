@@ -1,0 +1,21 @@
+1234567
+234567
+34567
+4567
+567
+67
+7
+
+
+function starSquare(n){
+for(let i=1;i<=n;i++)
+{
+    let pattern="";
+    for(j=i;j<=n;j++)
+    {
+        pattern+=j;
+    }
+    console.log(pattern)
+}
+}
+starSquare(7);
