@@ -1,0 +1,23 @@
+class player{
+  constructor(name,type){
+    console.log(this);
+    this.name=name;
+    this.type=type;
+    
+  }
+  introduce(){
+    console.log(`HI i am ${this.name},I am ${this.type}`)
+  }
+}
+
+class wizards extends player{
+  constructor(name,type){
+    super(name,type)
+  }
+  player(){
+    console.log(`weeee i am a ${this.type}`)
+  }
+}
+
+const wizard1=new wizards('prabhat','hello');
+const wizard2=new wizards('Srabhat','hello');
