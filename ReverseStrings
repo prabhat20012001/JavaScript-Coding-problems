@@ -1,3 +1,4 @@
+///////////////////////method-1////////////////////////////
 function reverse(str){
   if(!str||str.length<2||typeof str !=='string'){
     return 'hmm that is not good';
@@ -13,3 +14,13 @@ function reverse(str){
  }
 
 reverse('prabhat')
+/////////////////////////method-2/////////////////////////////
+
+function reverse2(str){
+
+return str.split('').reverse().join()
+}
+
+///////////////method-3/////////////////
+const reverse3=str=>str.split('').reverse().join('');
+console.log(reverse3('HI HOW ARE YOU')) ;
